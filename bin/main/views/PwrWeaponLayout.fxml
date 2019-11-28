@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane id="grayback" fx:id="pwrweaponPane" prefHeight="800.0" prefWidth="1600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.PwrWeaponController">
+   <children>
+      <WebView fx:id="webView" layoutX="916.0" prefHeight="792.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <GridPane layoutX="20.0" layoutY="54.0" prefHeight="23.0" prefWidth="28.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <Button id="pwr1" layoutX="66.0" layoutY="103.0" mnemonicParsing="false" onAction="#pwr1" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr9" layoutX="317.0" layoutY="220.0" mnemonicParsing="false" onAction="#pwr9" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr8" layoutX="190.0" layoutY="220.0" mnemonicParsing="false" onAction="#pwr8" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr7" layoutX="66.0" layoutY="220.0" mnemonicParsing="false" onAction="#pwr7" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr4" layoutX="447.0" layoutY="103.0" mnemonicParsing="false" onAction="#pwr4" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr3" layoutX="317.0" layoutY="103.0" mnemonicParsing="false" onAction="#pwr3" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr2" layoutX="190.0" layoutY="103.0" mnemonicParsing="false" onAction="#pwr2" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr10" layoutX="447.0" layoutY="220.0" mnemonicParsing="false" onAction="#pwr10" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr13" layoutX="66.0" layoutY="342.0" mnemonicParsing="false" onAction="#pwr13" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr19" layoutX="66.0" layoutY="461.0" mnemonicParsing="false" onAction="#pwr19" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr16" layoutX="447.0" layoutY="342.0" mnemonicParsing="false" onAction="#pwr16" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr15" layoutX="317.0" layoutY="342.0" mnemonicParsing="false" onAction="#pwr15" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr14" layoutX="190.0" layoutY="342.0" mnemonicParsing="false" onAction="#pwr14" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr12" layoutX="706.0" layoutY="220.0" mnemonicParsing="false" onAction="#pwr12" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr11" layoutX="576.0" layoutY="220.0" mnemonicParsing="false" onAction="#pwr11" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr6" layoutX="706.0" layoutY="103.0" mnemonicParsing="false" onAction="#pwr6" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr5" layoutX="576.0" layoutY="103.0" mnemonicParsing="false" onAction="#pwr5" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr17" layoutX="576.0" layoutY="342.0" mnemonicParsing="false" onAction="#pwr17" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="pwr18" layoutX="706.0" layoutY="342.0" mnemonicParsing="false" onAction="#pwr18" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="backIcon" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back" prefHeight="50.0" prefWidth="100.0" />
+      <Label layoutX="354.0" layoutY="35.0" text="파워 무기">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="root" prefHeight="150.0" prefWidth="100.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="views.ItemController">
+   <children>
+      <ImageView fx:id="imgView" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#click" pickOnBounds="true" />
+      <Label fx:id="lblName" alignment="CENTER" layoutX="7.0" layoutY="144.0" prefHeight="50.0" prefWidth="100.0" text="무기이름" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>

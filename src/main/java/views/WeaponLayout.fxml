@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane id="grayback" fx:id="weaponPage" prefHeight="800.0" prefWidth="1600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.WeaponController">
+   <children>
+      <WebView fx:id="webView" layoutX="916.0" layoutY="1.0" prefHeight="791.0" prefWidth="684.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button id="backIcon" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" prefHeight="50.0" prefWidth="100.0" />
+      <Button id="p1" layoutX="66.0" layoutY="103.0" mnemonicParsing="false" onAction="#W1" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p9" layoutX="317.0" layoutY="220.0" mnemonicParsing="false" onAction="#W9" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p8" layoutX="190.0" layoutY="220.0" mnemonicParsing="false" onAction="#W8" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p7" layoutX="66.0" layoutY="220.0" mnemonicParsing="false" onAction="#W7" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p4" layoutX="447.0" layoutY="103.0" mnemonicParsing="false" onAction="#W4" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p3" layoutX="317.0" layoutY="103.0" mnemonicParsing="false" onAction="#W3" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p2" layoutX="190.0" layoutY="103.0" mnemonicParsing="false" onAction="#W2" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p10" layoutX="447.0" layoutY="220.0" mnemonicParsing="false" onAction="#W10" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p13" layoutX="66.0" layoutY="342.0" mnemonicParsing="false" onAction="#W13" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p21" layoutX="317.0" layoutY="459.0" mnemonicParsing="false" onAction="#W21" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p20" layoutX="190.0" layoutY="459.0" mnemonicParsing="false" onAction="#W20" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p19" layoutX="66.0" layoutY="459.0" mnemonicParsing="false" onAction="#W19" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p16" layoutX="447.0" layoutY="342.0" mnemonicParsing="false" onAction="#W16" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p15" layoutX="317.0" layoutY="342.0" mnemonicParsing="false" onAction="#W15" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p14" layoutX="190.0" layoutY="342.0" mnemonicParsing="false" onAction="#W14" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p22" layoutX="447.0" layoutY="459.0" mnemonicParsing="false" onAction="#W22" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p11" layoutX="576.0" layoutY="220.0" mnemonicParsing="false" onAction="#W11" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p6" layoutX="706.0" layoutY="103.0" mnemonicParsing="false" onAction="#W6" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p5" layoutX="576.0" layoutY="103.0" mnemonicParsing="false" onAction="#W5" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p12" layoutX="706.0" layoutY="220.0" mnemonicParsing="false" onAction="#W12" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p17" layoutX="576.0" layoutY="342.0" mnemonicParsing="false" onAction="#W17" prefHeight="107.0" prefWidth="111.0" />
+      <Button id="p18" layoutX="706.0" layoutY="342.0" mnemonicParsing="false" onAction="#W18" prefHeight="107.0" prefWidth="111.0" />
+      <Label layoutX="350.0" layoutY="31.0" text="물리무기">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
